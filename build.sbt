@@ -11,4 +11,4 @@ lazy val root = (project in file("."))
 val tapirVersion = "1.10.15"
 
 libraryDependencies += "com.softwaremill.sttp.tapir" %% "tapir-core" % tapirVersion
-libraryDependencies += "com.softwaremill.sttp.tapir" %% "tapir-" % tapirVersion
+libraryDependencies += "com.softwaremill.sttp.tapir" %% "tapir-netty-server" % tapirVersion
